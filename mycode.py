@@ -11,9 +11,10 @@ data = {
 df = pd.DataFrame(data)
 
 # adding a new role in the data
-new_row_loc = {'name':'Gf1','Age':23,'City':'Agartala'}
 
-df.loc[len(df.index)] =  new_row_loc
+new_row_loc1= {'name':'sh_never_got','Age':19,'City':'Dehradun'}
+
+df.loc[len(df.index)] =  new_row_loc1
 
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
